@@ -1,8 +1,9 @@
 import React from 'react'
 import './test.css'
 import { motion } from 'framer-motion'
-import item from '../Images/item.png'
+import item from '../Images/Item.png'
 import item2 from '../Images/item2.png'
+
 const Testimonial = () => {
     return (
         <motion.div className='testimony'>
