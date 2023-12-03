@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.Header {
+  display: block;
+  background-color: #fdf2f2;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+.head {
+  padding: 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dot {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.nav-optn {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.025rem;
+  padding: 5px 10px;
+  align-items: center;
+}
+.nav-wrapper {
+  margin: 0 50px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin: 0 10px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.nav:hover {
+  color: rgb(130, 71, 255);
+}
+
+.buy-btn {
+  background-color: #ffffff00;
+
+  align-items: center;
+  display: flex;
+
+  justify-content: center;
+
+  margin: 0 10px;
+  padding: 2px;
+  font-weight: 600;
+}
+.buy-btn div {
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: #fff;
+  padding: 5px 20px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+
+  border-radius: 10px;
+}
+.buy-btn div:hover {
+  outline: 1px solid rgb(118, 118, 118);
+}

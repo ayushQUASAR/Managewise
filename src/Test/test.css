@@ -1,0 +1,51 @@
+.testimony {
+  padding: 30px;
+  overflow: hidden;
+  width: 70vw;
+  margin: auto;display: flex;
+  position: relative;
+
+}
+
+.track {
+  width: calc(340px * 13);
+  display: flex;
+  align-items: center;
+  animation: scroll 80s linear infinite;
+ 
+}
+.testimony::after,.testimony::before{
+background: linear-gradient(to right, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 100%);
+content: '';
+height: 100%;
+position: absolute;
+width: 15%;
+z-index: 2;
+}
+
+.testimony::before {
+  left: 0;
+  top: 0;
+}
+
+.testimony::after {
+  right: 0;
+  top: 0;
+}
+
+
+
+.track img {
+  width: 340px;
+  height: 355px;
+
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translate(calc(-340px * 7));
+  }
+}

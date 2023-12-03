@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Poppins:wght@100;200;300&display=swap");
+
+.middle {
+  display: block;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(255, 191, 175) 0%, rgb(255, 208, 197) 0%,  rgb(255, 233, 228) 0%, rgba(255,255,255,1) 100%); 
+}
+
+.top-h {
+  width: fit-content;
+  margin-top: 100px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: auto;
+}
+.start {
+  font-family: "Outfit", sans-serif;
+  box-shadow: none;
+  margin: 10px 17px;
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 40px;
+  text-align: center;
+  border-radius: 20px;
+  transition: boxShadow 0.7s ease;
+
+  border:none;
+  transition:outline 0.3s ;
+}
+/* .start:hover{
+    transition:border ease-in-out 0.0001s;
+    border:8px solid rgba(206, 201, 209, 0.571);
+} */
+
+.start:nth-child(1):hover{
+  /* box-shadow: 10px 10px 15px #8247FF,-10px -10px 15px  #8247FF; */
+  /* outline-offset: 5px ; */
+  outline:8px solid #d9c9fc;
+}
+.start:nth-child(1) {
+  width: 120px;
+  height: 50px;
+
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #8247FF;
+}
+.start:nth-child(2){
+    /* border:1px solid rgb(59, 59, 59); */
+    outline:1px solid rgb(142, 142, 142);
+
+}
+.start:nth-child(2):hover{
+  outline: 1px solid rgb(9, 9, 9);
+}
+.start:nth-child(2)::after{
+  content: "";
+  position: absolute;
+}
+.btnss {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+  display: flex;
+}
+.bot-h {
+  margin-top: 10px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+}
+.after{
+    margin: auto;
+}
+.bot {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bot:nth-child(1) {
+  width: 1000px;
+}
+.bot:nth-child(3) {
+  margin-top: 50px;
+}
+
+
+.m-content{
+    margin-left: auto;
+    margin-right:auto ;
+    width: fit-content;
+    box-shadow: 0px 20px 30px rgb(197, 197, 197);
+    margin-top: 80px;
+}
+.m-content img{
+    width: 63vw;
+    border-radius: 10px;
+}
+.n-content{
+    margin-left: auto;
+    margin-right:auto ;
+    width: fit-content;
+    margin-top: 180px;
+}
+.low-content{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px ;
+}
+.left-c{
+    margin: 20px;
+}
+.schedule{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  width: fit-content;
+  margin-right: auto;
+}
+.left-f{
+  margin: 20px;
+}
+.below-option{
+/* height: 87vh; */
+  display: block;
+  background-color:black;
+
+}
+.optn-header{
+  width: fit-content;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+ 
+}
+.optn-content{
+padding: 100px 0;
+
+}
+.optn-option{
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.optn-option div{
+  margin: 20px;
+}
+.apps{
+  background-color: black;
+  min-height: 80vh;
+  padding: 30px 0;
+  overflow: hidden;
+  
+}
+.stars{
+  width: fit-content;
+  /* margin-top: 30px; */
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  padding-top: 80px;
+
+  justify-content: center;
+  margin-right: auto;
+}
+.apps-img{
+  position:absolute;
+ 
+  left: -23vw ;
+}
+.apps-img img{
+  width: 82vw;
+}
+.stars-h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.stars-h1:nth-child(2){
+  margin-top: 50px;
+  
+}
+.stars-h1:last-child
+{
+transform: translateY(56px);
+}
+.sales-cont{
+  width: fit-content;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  display: flex;
+}
+.sales-cont img{
+  margin: 10px 20px;
+}
+.test-cont{
+  width: fit-content;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.happy{
+  display: flex;
+  width: fit-content;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ans{
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  
+}
